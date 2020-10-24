@@ -7,5 +7,7 @@
     "sourceMap": true,
     "outDir": "dist"
   },
+  "compileOnSave": true,
+  "include": ["src"],
   "lib": ["es2015"]
 }
