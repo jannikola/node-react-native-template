@@ -6,7 +6,7 @@ export default function App() {
   const [data, setData] = useState("");
 
   function getData() {
-    return fetch("http://localhost:3000/v1/initial", {
+    return fetch("http://10.0.2.2:3000/v1/initial", {
       method: "GET",
     })
       .then((response) => response.json())
