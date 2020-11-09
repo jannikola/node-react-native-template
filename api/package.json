@@ -5,6 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
+    "run": "tsc && nodemon dist/app.js",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
